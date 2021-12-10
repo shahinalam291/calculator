@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery</title> 
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>  
+
+    <div class="container">
+        <div class="inputs">
+            <input type="text" name="" id="one" class="a">
+        </div>
+        <div class="main-div">
+
+            <div>
+                <input type="button" id="btn" value="C" onclick="ag()">
+                <input type="button" id="btn" value="+/-" onclick="alert('hi')">
+                <input type="button" id="btn" value="%" onclick="shahin('%')">
+                <input type="button" id="btn" value="/" 
+                onclick="shahin('/')">
+            </div>
+            <div>
+                <input type="button" id="btn" value="7" onclick="shahin(7)">
+                <input type="button" id="btn" value="8" onclick="shahin(8)">                <input type="button" id="btn" value="9" onclick="shahin(9)">
+                <input type="button" id="btn" value="*"
+                onclick="shahin('*')">
+            </div>
+            <div>
+                <input type="button" id="btn" value="4" onclick="shahin(4)">
+                <input type="button" id="btn" value="5" onclick="shahin(5)">
+                <input type="button" id="btn" value="6" onclick="shahin(6)">
+                <input type="button" id="btn" value="-"  
+                onclick="shahin('-')">
+            </div>
+            <div>
+                <input type="button" id="btn" value="1" onclick="shahin(1)">
+                <input type="button" id="btn" value="2" onclick="shahin(2)">
+                <input type="button" id="btn" value="3" onclick="shahin(3)">
+                <input type="button" id="btn" value="+"
+                onclick="shahin('+')">
+            </div>
+            <div>
+                <input type="button" id="btn" value="0" onclick="shahin(0)">
+                <input type="button" id="btn" value="." onclick="shahin('.')">
+                <input type="button" id="btn" value="DEL" onclick="cal()">
+                <input type="button" id="btn" value="=" onclick="love()">
+            </div>
+        </div>
+    </div>
+    
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="app.js"></script>  
+</body>
+</html>
